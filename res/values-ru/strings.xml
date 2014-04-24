@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CB data backup</string>
+    <string name="menu_export">Экспорт &#8230;</string>
+    <string name="menu_exporteverything">Экспортировать все</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_about">О нас</string>
+    <string name="contextmenu_deletefile">Удалить файл</string>
+    <string name="contextmenu_deletedaydata">Удалить дату</string>
+    <string name="error_nosdcard">Отсутсвует SD карта.</string>
+    <string name="error_unsupporteddatabasestructure">Структура данных не поддерживаеться</string>
+    <string name="error_couldnotcreatebackupfolder">Невозможно создать папку для сохранения резервных копий (%s)</string>
+    <string name="error_somethingwentwrong">Ошибка: %s.</string>
+    <string name="hint_nobackupsfound">Резервные копии не найдены - надмите меню для создания резервной копии.</string>
+    <string name="hint_noexportdata">Нет данных для выгрузки.</string>
+    <string name="hint_exporting">Резервная копия создаеться %s &#8230;</string>
+    <string name="hint_existed">\"%s\" создано</string>
+    
+    <!-- there is no need for a translation of the following string -->
+    <string name="license">
+Данное приложение создает резервные копии ваших основных данных и сохраняет их в формате *.xml. \
+Формат *.xml понимают многие приложения поэтому вы с легкостью можете внести изменения с помощью \
+внешнего редактора. Вы в любой момент можете востановить сохраненные данные. Приложение имеет \
+малый размер, размер резервной копии зависит только от количества ваших данных. \n\
+	</string>
+	
+	<string name="license_intro">
+	    Возможности:  \
+- Создание резервной копии SMS (сторонние приложения не поддерживаються); \
+- Создание резервной копии журнала звонков; \
+- Создание резервной копиии закладок браузера (сторонние браузеры не поддерживаються, вложения не поддерживаються); \
+- Резервная копия плейлистов; \
+- Создание резервной копии настроек; \
+- Создание резервной копии на SD карте. \n\ 
+	</string>
+    <string name="message_exportedto">Экспортировано в %s.</string>
+    <string name="message_importsuccessful">Импорт завершен.</string>
+    <plurals name="message_importsuccessful_skipped">
+        <item quantity="one">Востановление успешено, но пропущена 1 запись.</item>
+        <item quantity="other">Востановление успешено, но пропущено %d записей.</item>
+    </plurals>
+    <plurals name="listentry_items">
+        <item quantity="one">1 запись в</item>
+        <item quantity="other">%d записей в</item>
+    </plurals>
+    <string name="button_import">Востановление</string>
+    <string name="button_accept">Применить</string>
+    <string name="button_decline">Отменить</string>
+    <string name="smsmessages">Сообщения</string>
+    <string name="calllogs">Журнал вызовов</string>
+    <string name="bookmarks">Закладки</string>
+    <string name="userdictionary">Словарь пользователя</string>
+    <string name="playlists">Плейлисты</string>
+    <string name="settings">Настройки</string>
+    <string name="wifisettings">Настройки Wi-Fi</string>
+    <string name="dialog_export">Резервная копия</string>
+    <string name="dialog_licenseagreement">Информация</string>
+    <string name="question_deletefile">Вы действительно хотите удалить файлы %s?</string>
+    
+    <string name="settings_category_cyclicbehavior">Количество резервных копий</string>
+    <string name="settings_cyclecount">Количество создаваемых резервных копий</string>
+    <string name="settings_cyclecount_description">Максимальное количество копий одного типа</string>
+    <string name="settings_category_storage">Хранилище</string>
+    <string name="settings_storagelocation">Месторосположение хранилища</string>
+    <string name="settings_storagelocation_description">Месторасположение резервных копий</string>
+    <string name="settings_storagelocation_hint">Стандартный внешний накопитель</string>
+    
+<string name="admob_publisher_id">a1506b39428f510</string>
+    <string-array name="settings_cyclecountvalues">
+        <item>Без лимита</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+</resources>

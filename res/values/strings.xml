@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CB data backup</string>
+    <string name="menu_export">Export &#8230;</string>
+    <string name="menu_exporteverything">Export all</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="contextmenu_deletefile">Delete file</string>
+    <string name="contextmenu_deletedaydata">Delete this days data</string>
+    <string name="error_nosdcard">SD-card not found.</string>
+    <string name="error_unsupporteddatabasestructure">Unsupported database structure</string>
+    <string name="error_couldnotcreatebackupfolder">Could not create backupfolder (%s)</string>
+    <string name="error_somethingwentwrong">Error: %s.</string>
+    <string name="hint_nobackupsfound">No backups found - press click menu to create backup.</string>
+    <string name="hint_noexportdata">No data available for export.</string>
+    <string name="hint_exporting">Exporting %s &#8230;</string>
+    <string name="hint_existed">\"%s\" existed</string>
+    
+    <!-- there is no need for a translation of the following string -->
+    <string name="license">
+This application creates backup copies of your master data and stores it in a format \
+ *.xml. This format understand many applications so you can easily make changes to an \
+ external editor. At any time you can restore the saved data. The application has a \
+ small size, the size of the backup depends on the amount of your data. \n\
+	</string>
+	<string name="license_intro">
+Features: \n
+- SMS backup (stock application); \n
+- Call log; \n
+- Bookmarks (stock browser, without folder); \n
+- Playlists; \n
+- Setting; \n
+- Backup your information to SD card. \n
+	</string>
+    <string name="message_exportedto">Exported into %s.</string>
+    <string name="message_importsuccessful">Import successful.</string>
+    <plurals name="message_importsuccessful_skipped">
+        <item quantity="one">Import successful, but skipped 1 entry.</item>
+        <item quantity="other">Import successful, but skipped %d entries.</item>
+    </plurals>
+    <plurals name="listentry_items">
+        <item quantity="one">1 item in</item>
+        <item quantity="other">%d items in</item>
+    </plurals>
+    <string name="button_import">Import</string>
+    <string name="button_accept">Accept</string>
+    <string name="button_decline">Cancel</string>
+    <string name="smsmessages">Short messages (SMS)</string>
+    <string name="calllogs">Call logs</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="userdictionary">User dictionary</string>
+    <string name="playlists">Playlists</string>
+    <string name="settings">Settings</string>
+    <string name="wifisettings">Wi-Fi settings</string>
+    <string name="dialog_export">Export</string>
+    <string name="dialog_licenseagreement">info</string>
+    <string name="question_deletefile">Do you really want to delete the file %s?</string>
+    
+    <string name="settings_category_cyclicbehavior">Amount of backups</string>
+    <string name="settings_cyclecount">Amount backup</string>
+    <string name="settings_cyclecount_description">Max. number of backups of one type</string>
+    <string name="settings_category_storage">Storage</string>
+    <string name="settings_storagelocation">Storage location</string>
+    <string name="settings_storagelocation_description">Location of the backup files</string>
+    <string name="settings_storagelocation_hint">Standard external storage</string>
+    
+<string name="admob_publisher_id">a1506b39428f510</string>
+    <string-array name="settings_cyclecountvalues">
+        <item>Unlimited</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+</resources>
